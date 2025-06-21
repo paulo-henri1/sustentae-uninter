@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "sustentae-uninter",
+          "appId": "1:15767347335:android:f8f91b756fa0a27e2a5822",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "sustentae-uninter",
+          "configurations": {
+            "android": "1:15767347335:android:f8f91b756fa0a27e2a5822",
+            "ios": "1:15767347335:ios:555665ef209185052a5822",
+            "web": "1:15767347335:web:0cef688f4eae54042a5822"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

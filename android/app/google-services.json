@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "15767347335",
+    "project_id": "sustentae-uninter",
+    "storage_bucket": "sustentae-uninter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15767347335:android:f8f91b756fa0a27e2a5822",
+        "android_client_info": {
+          "package_name": "com.example.sustentae_uninter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMFPfAubjmAOzT69T9Lm_pWN_wW0KW7Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
